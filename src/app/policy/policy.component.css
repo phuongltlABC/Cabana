@@ -1,0 +1,22 @@
+.container {
+  max-width: 800px;
+  background: #fef5f1;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.policy-accordion mat-expansion-panel {
+  background: white;
+  border: 1px solid #ddd;
+  margin-bottom: 8px;
+  border-radius: 8px;
+}
+
+mat-expansion-panel-header {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.text-primary {
+  color: #002c5f !important;
+}

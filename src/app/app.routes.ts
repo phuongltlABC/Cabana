@@ -6,6 +6,7 @@ import { BlogComponent } from './blog/blog.component';
 import { ProductMenuComponent } from './shared/product-menu/product-menu.component';
 import { ContactComponent } from './contact/contact.component';
 import { PromotionComponent } from './promotion/promotion.component';
+import { ProductComponent } from './product/product/product.component';
 export const routes: Routes = [
     {path: 'login', component:LoginComponent},
     {path:'about', component:AboutComponent},
@@ -13,7 +14,8 @@ export const routes: Routes = [
     {path: 'blog', component:BlogComponent},
     {path:'product-menu', component:ProductMenuComponent},
     {path: 'contact', component:ContactComponent},
-    {path:"promotion", component:PromotionComponent}
+    {path:"promotion", component:PromotionComponent},
+    {path:"product", component:ProductComponent}
 
 
 
